@@ -1,0 +1,10 @@
+{"instruction": "Cipta satu program yang melaksanakan tugasan berikut terhadap satu array bersarang: Cari semua nilai dalam array tersebut yang kurang daripada atau sama dengan 10, dan tukarkan nilai-nilai tersebut kepada 0." }
+{"instruction": "Cipta satu fungsi yang menerima satu senarai nombor dan memulangkan nilai maksimum dalam senarai tersebut. Gunakan fungsi tersebut untuk mencari nilai maksimum dalam senarai [1, -5, 8, 10, -2] dan papar hasilnya."}
+{"instruction": "Tulis satu pertanyaan SQL untuk mendapatkan 10 produk teratas yang mempunyai jumlah kuantiti tertinggi daripada jadual 'Orders'. Paparkan nama produk dan jumlah kuantitinya, disusun mengikut kuantiti secara menurun."}
+{"instruction": "Bina satu komponen React yang memaparkan borang dengan dua medan input — satu untuk nama dan satu untuk alamat emel — serta satu butang hantar."}
+{"instruction": "Cipta satu fungsi yang menjana semua kombinasi unik sebanyak 3 nombor berbeza daripada senarai [1, 2, 3, 4], tanpa mengulangi indeks yang sama. Paparkan semua kombinasi tersebut."}
+{"instruction": "Tulis skrip Python untuk menjalankan pelayan HTTP ringkas menggunakan port 8080 dan papar mesej apabila pelayan telah dimulakan."}
+{"instruction": "Tulis satu fungsi dalam Python untuk menjana kod rawak sepanjang 8 hingga 16 aksara. Kod tersebut mesti mengandungi sekurang-kurangnya satu huruf kecil, satu huruf besar, dan satu nombor. Paparkan kod yang dijana."}
+{"instruction": "Tulis satu fungsi dalam Python yang menukarkan tiga nilai RGB (merah, hijau, biru) kepada kod warna heksadesimal."}
+{"instruction": "Tulis satu fungsi dalam Python untuk menghasilkan semua pasangan unik bandar daripada senarai bandar ['A', 'B', 'C', 'D'], tanpa mengulangi pasangan yang sama dalam susunan terbalik."}
+{"instruction": "Tulis satu fungsi dalam Python yang menerima tajuk filem, dua nama pelakon, nama pengarah, dan tahun tayangan sebagai parameter, dan memulangkan skor ramalan untuk filem tersebut."}
