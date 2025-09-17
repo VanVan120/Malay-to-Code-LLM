@@ -8,3 +8,4 @@
 {"instruction": "Tulis satu fungsi dalam Python yang menukarkan tiga nilai RGB (merah, hijau, biru) kepada kod warna heksadesimal."}
 {"instruction": "Tulis satu fungsi dalam Python untuk menghasilkan semua pasangan unik bandar daripada senarai bandar ['A', 'B', 'C', 'D'], tanpa mengulangi pasangan yang sama dalam susunan terbalik."}
 {"instruction": "Tulis satu fungsi dalam Python yang menerima tajuk filem, dua nama pelakon, nama pengarah, dan tahun tayangan sebagai parameter, dan memulangkan skor ramalan untuk filem tersebut."}
+{}

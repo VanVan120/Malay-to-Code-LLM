@@ -2,7 +2,7 @@
 {"instruction": "Tulis fungsi dalam Python yang menerima senarai nombor dan memulangkan nilai maksimum dalam senarai tersebut."}
 {"instruction": "Tulis pertanyaan SQL yang memaparkan 10 produk teratas berdasarkan jumlah kuantiti yang dijual. Gabungkan baris data dengan produk yang sama dan susun secara menurun mengikut jumlah kuantiti."}
 {"instruction": "Tulis komponen React kelas yang memaparkan borang dengan input untuk nama dan alamat emel, serta butang hantar."}
-{"instruction": "ulis fungsi Python yang menjana semua gabungan unik tiga nombor dari senarai yang diberikan."}
+{"instruction": "Tulis fungsi Python yang menjana semua gabungan unik tiga nombor dari senarai yang diberikan."}
 {"instruction": "Tulis skrip Python ringkas untuk memulakan pelayan HTTP pada port 8080 menggunakan http.server dan socketserver."}
 {"instruction": "Tulis fungsi Python untuk menjana kod rawak sepanjang 8 hingga 16 aksara, bermula dengan satu huruf kecil, satu huruf besar dan satu digit, diikuti gabungan aksara rawak."}
 {"instruction": "Tulis fungsi Python yang menukar nilai warna RGB kepada format kod heksadesimal."}
