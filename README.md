@@ -12,8 +12,8 @@
 
 ## 📊 Project Highlights
 
-- **🗃️ 1,000,000+** processed training entries across multiple dataset variants
-- **🌍 12 Programming Languages** evaluated via HumanEval-XL benchmark
+- **🗃️ 800,000+** processed training entries across multiple dataset variants
+- **🌍 Python Programming Languages** evaluated via HumanEval-XL benchmark
 - **📈 Translation Quality Score** Average BERTScore F1: 0.41, COMET evaluation on 3,400+ samples
 - **🔧 Complete Pipeline** From data processing to model evaluation
 - **🏫 Academic Research** University of Nottingham Malaysia Computer Science Department
@@ -41,11 +41,10 @@ From raw data processing to final model evaluation, this repository documents th
 | Dataset Component | Size | Description |
 |------------------|------|-------------|
 | **Original Dataset** | 85,371 entries | Base English programming instructions |
-| **Processed Training Data** | 1,000,000+ entries | Multiple variants with quality filtering |
-| **Final Malay Translations** | Complete coverage | High-quality Bahasa Melayu translations |
+| **Final Malay Translations** | Complete coverage | High-quality Bahasa Melayu translations using Google Translator |
 | **Evaluation Results** | 3,400+ samples | BERTScore and COMET quality metrics |
 
-### 🎨 **Programming Languages Covered**
+### 🎨 **Programming Languages Covered when Training**
 `Python` • `JavaScript` • `Java` • `C#` • `Go` • `PHP` • `Ruby` • `Swift` • `Kotlin` • `Scala` • `TypeScript` • `Perl`
 
 ---
@@ -62,7 +61,7 @@ From raw data processing to final model evaluation, this repository documents th
 ### **📊 Data Processing Pipeline**
 ```
 Raw English Instructions → Translation → Quality Filtering → Expert Validation → Final Dataset
-     (85K entries)         (1M+ variations)  (Score-based)    (Human review)    (Production-ready)
+     (800K+ entries)    (Complete coverage)  (Score-based)    (Human review)    (Production-ready)
 ```
 
 ### **🎯 Quality Metrics**
