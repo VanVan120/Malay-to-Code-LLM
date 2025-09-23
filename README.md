@@ -9,7 +9,7 @@ A research initiative to fine-tune a Large Language Model (LLM) for generating p
 
 ## 💡 Project Overview
 
-The goal of this project is to bridge the linguistic gap in AI-driven software development. We are creating a novel, high-quality dataset of programming prompts in Bahasa Melayu to fine-tune a large language model (LLM), enabling it to understand and execute coding instructions provided in Malay.
+This project successfully bridged the linguistic gap in AI-driven software development by creating and training on a novel, high-quality dataset of programming prompts in Bahasa Melayu. We fine-tuned a large language model (LLM) using **85,371 programming prompts** across various programming languages translated to Malay, and benchmarked the model's performance specifically on **Python programming tasks** to measure improvements over baseline models.
 
 ---
 
@@ -21,45 +21,69 @@ Most large language models are trained predominantly on English text. As a resul
 
 ## ✅ Our Solution
 
-We aim to localize LLM capabilities for Bahasa Melayu by:
+We successfully localized LLM capabilities for Bahasa Melayu by:
 
-- **Generating a Dataset:** Creating a parallel dataset by machine-translating common English programming prompts into Bahasa Melayu.
-- **Validating the Dataset:** Collaborating with linguistic and NLP experts to ensure translations are accurate, clear, and natural.
-- **Fine-Tuning the Model:** Using the validated dataset to fine-tune a large language model so it can understand and execute Malay programming commands.
-- **Evaluating Performance:** Rigorously testing the fine-tuned model to measure improvements over baseline models.
-
----
-
-## 🛠️ Methodology: Three Stages
-
-### 1. Data Generation & Translation
-
-- Used automated translation tools to convert a large collection of programming prompts from English to Malay.
-
-### 2. Expert Validation **(We Need Your Help!)**
-
-- Experts and academics review the translations for linguistic quality and clarity.
-- **Validation Process:**  
-  1. Access a Google Form with translated Malay prompts.
-  2. Rate each translation on a 1–5 scale for quality and clarity.
-  3. Optionally, suggest improvements for any sentences.
-
-> **Your contribution is invaluable!** All contributors and their affiliations will be formally acknowledged in our final research publication.
-
-### 3. Fine-Tuning & Evaluation
-
-- Fine-tune the LLM using the validated dataset.
-- Report and analyze the model's performance.
+- **Generated a Multi-Language Dataset:** Created a comprehensive dataset of **85,371 programming prompts** by machine-translating common English programming prompts covering various languages (Python, JavaScript, SQL, etc.) into Bahasa Melayu.
+- **Validated the Dataset:** Applied quality filtering and validation techniques using semantic similarity scores to ensure translations maintain technical accuracy and clarity.
+- **Fine-Tuned the Model:** Successfully trained a large language model using the complete validated dataset of 85,371 Malay programming prompts spanning multiple programming languages.
+- **Evaluated Performance on Python:** Rigorously tested and benchmarked the fine-tuned model specifically on **Python programming tasks** using the HumanEval-XL dataset (80 problems) to measure improvements over baseline models.
 
 ---
 
-## 🤝 How to Collaborate
+## 🛠️ Methodology: Completed Research
 
-We welcome collaborators and contributors, especially those with expertise in linguistics, natural language processing, or software engineering.
+### 1. Data Generation & Translation ✅
 
-- **Interested?** Reach out to us via email (see below).
-- **Contribution:** Data validation, model training, evaluation, or research collaboration.
-- **Recognition:** Contributors will be acknowledged in publications.
+- Successfully processed and translated **85,371 programming prompts** from English to Malay using automated translation tools.
+- The dataset covers multiple programming languages including Python, JavaScript, SQL, and others.
+- Applied comprehensive data cleaning and preprocessing techniques.
+
+### 2. Dataset Quality Validation ✅
+
+- Implemented semantic similarity scoring using BERTScore and other metrics to validate translation quality.
+- Applied filtering techniques to ensure only high-quality translations (F1 scores above threshold) were included in the final training set.
+- Achieved a robust dataset suitable for language model fine-tuning.
+
+### 3. Fine-Tuning & Evaluation ✅
+
+- **Training:** Successfully fine-tuned the LLM using the complete dataset of **85,371 multi-language programming prompts** in Bahasa Melayu.
+- **Evaluation Focus:** Conducted comprehensive benchmarking specifically on **Python programming tasks** to measure the model's code generation capabilities.
+- **Benchmark Dataset:** Used the HumanEval-XL evaluation framework with **80 Python programming problems** available in both English and Malay.
+- **Performance Analysis:** Compared pre-training vs. post-training performance to quantify improvements in understanding Malay programming instructions for Python code generation.
+
+---
+
+## 📊 Dataset & Results
+
+### Training Dataset
+- **Size:** 85,371 programming prompts
+- **Languages:** Multiple programming languages (Python, JavaScript, SQL, etc.)
+- **Translation:** English to Bahasa Melayu using automated translation with quality validation
+- **Quality Control:** Semantic similarity filtering and BERTScore validation
+
+### Evaluation Dataset  
+- **Framework:** HumanEval-XL
+- **Focus:** Python programming tasks only
+- **Size:** 80 coding problems
+- **Languages:** Available in both English and Malay for comparison
+
+### Key Findings
+- Successfully trained a multilingual code LLM on diverse programming languages in Malay
+- Benchmarked specifically on Python to demonstrate effectiveness of Malay instruction understanding
+- Demonstrated measurable improvements in code generation from Malay natural language instructions
+
+---
+
+## 🤝 Future Collaboration
+
+This research demonstrates the successful fine-tuning of LLMs for Bahasa Melayu programming tasks. We welcome further collaboration to:
+
+- Extend evaluation to other programming languages beyond Python
+- Expand the training dataset with more diverse programming domains
+- Explore advanced fine-tuning techniques and model architectures  
+- Conduct comparative studies with other multilingual code models
+
+**Interested in collaboration?** Reach out to us via email (see below). Contributors will be acknowledged in future publications.
 
 ---
 
